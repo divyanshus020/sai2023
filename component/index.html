@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>SAI</title>
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon.ico">
     <script src="https://kit.fontawesome.com/ceb53b61bf.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../styles.css">
@@ -15,89 +17,58 @@
 <body>
     <div class="sai">
         <!-- top-nevigation -->
-        <div class="nav-container">
-            <div class="user-nav">
-                <div class="social">
-                    <a><i id="social-icon" class="fa-brands fa-facebook"></i></a>
-                    <a><i id="social-icon" class="fa-brands fa-linkedin"></i></a>
-                    <a><i id="social-icon" class="fa-brands fa-twitter"></i></a>
-                </div>
-                <div class="user-info">
-                    <i class="fa-solid fa-envelope"></i>
-                    <p class="email-id">sales@sheeranalysticsresearch.com</p>
-                    <i class="fa-solid fa-mobile"></i>
-                    <p class="mobile">+91 8085895002</p>
-                    <i class="fa-solid fa-user"></i>
-                    <p class="my-account">My Account</p>
-                </div>
-            </div>
-
-            <!-- logo -->
-            <div class="nav-content">
-                <div class="logo">
-                    <a href="index.html"><img src="../assets/sai_logo-8bdcb86c43808dfb831384efccd61b52.png"
-                            alt="logo"></a>
-                </div>
-
-                <!-- navigation -->
-                <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="#">Industry Reports</a>
-                            <ul>
-                                <li><a href="consumer-page.html">Consumer Oriented Sector</a></li>
-                                <br>
-                                <li><a href="technology-page.html">Technology Sector</a></li>
-                                <br>
-                                <li><a href="Defence-page.html">Defense Aerospace & Automatives</a></li>
-                                <br>
-                                <li><a href="Life-page.html">Life Science</a></li>
-                                <br>
-                                <li><a href="chemical-page.html">Chemical Materials & Energy</a></li>
-                                <br>
-                                <li><a href="banking-page.html">Banking,Fiancial Services & Insurance Sector</a></li>
-                                <br>
+        <nav>
+            <div class="navbar">
+                <i class='bx bx-menu'></i>
+                <a href="index.html"><img src="../assets/sai_logo-8bdcb86c43808dfb831384efccd61b52.png"
+                        width="200px"></a>
+                <div class="nav-links">
+                    <div class="sidebar-logo">
+                        <span class="logo-name">SHEER ANALYTICS</span>
+                        <i class='bx bx-x'></i>
+                    </div>
+                    <ul class="links">
+                        <li><a href="index.html">INDUSTRY REPORTS</a>
+                            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+                            <ul class="htmlCss-sub-menu sub-menu">
+                                <li><a href="consumer-page.html">CONSUMER ORIENTED SECTOR</a></li>
+                                <li><a href="technology-page.html">TECHNOLOGY SECTOR</a></li>
+                                <li><a href="Defence-page.html">DEFENSE AEROSPACE & AUTOMATIVES</a></li>
+                                <li><a href="Life-page.html">LIFE SCIENCE</a></li>
+                                <li><a href="chemical-page.html">CHEMICAL MATERIALS & ENERGY</a></li>
+                                <li><a href="banking-page.html">BANKING,FINANCIAL SERVICES & INSURENCE SECTOR</a></li>
                             </ul>
                         </li>
-
-
                         <li>
-
-                            <a href="#">soultions</a>
-                            <ul>
-                                <br>
-                                <li><a href="solution-1-nav.html">B2 & B2 Consulting</a></li>
-                                <br>
-                                <li><a href="solution-2-nav.html">Market Research Reports</a></li>
-                                <br>
-                                <li><a href="solution-3-nav.html">Data Analytics</a></li>
-                                <br>
-                                <li><a href="solution-4-nav.html">IT Solution</a></li>
-                                <br>
-                                <li><a href="solution-5-nav.html">SEO & Translation Services</a></li>
-                                <br>
+                            <a href="#">SOLUTION</a>
+                            <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
+                            <ul class="htmlCss-sub-menu sub-menu">
+                                <li><a href="solution-1-nav.html">B2B & B2 CONSULTING</a></li>
+                                <li><a href="solution-2-nav.html">MARKET RESEARCH REPORTS</a></li>
+                                <li><a href="solution-3-nav.html">DATA ANALYTICS</a></li>
+                                <li><a href="solution-4-nav.html">IT SOLUTION</a></li>
+                                <li><a href="solution-5-nav.html">SEO & TRANSLATION SERVICES</a></li>
                             </ul>
                         </li>
-
-
-                        <li><a href="resources-nav.html">Resources</a></li>
-
-
-                        <li><a href="about.html">About us</a></li>
-                        <li><a href="aimbox.html">AIM Box</a></li>
-                        <li><a href="contect.html">Contact Us</a></li>
+                        <li>
+                            <a href="resources-nav.html">RESOURCES</a>
+                        </li>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="aimbox.html">AIM BOX</a></li>
+                        <li><a href="contect.html">CONTACT US</a></li>
                     </ul>
                 </div>
 
-                <div class="search">
-                    <p><i class="fa-solid fa-magnifying-glass"></i></p>
-                    <a href="contect.html"><button>Get a Custom Solution</button></a>
+                <div class="search-box">
+                    <i class='bx bx-search'></i>
+                    <div class="input-box">
+                        <input type="text" placeholder="Search...">
+                    </div>
                 </div>
-
-
             </div>
-        </div>
+        </nav>
         <!-- hero section -1  -->
+
         <div class="hero-section-1">
             <div class="hero-section-content">
                 <div class="hero-section-content-head">
@@ -110,7 +81,7 @@
                         changing global industry landscape</p>
                     <br>
 
-                    <button class="text-btn">Stay Ahed with Insight</button>
+                    <a href="market-research.html"><button class="text-btn">STAY AHEAD WITH INSIGHTS</button></a>
                 </div>
 
                 <div class="hero-section-image">
@@ -119,22 +90,15 @@
             </div>
         </div>
 
-        <div class="hero-section-container">
 
-            <div class="hero-section-data">
-                <h2>Our Media Trust</h2>
-                <a href="#"><img src="../assets/forbes-microsoft-media-logo (1).webp"></a>
-                <a href="#"><img src="../assets/US-News-and-Yahoo (1).webp"></a>
-            </div>
-        </div>
 
         <!-- hero section-2-->
 
         <div class="hero-section-text-display">
             <div class="hero-section-display-head">
-                <h1 style=" font-size: 44px;text-align: center;">Some Facts
+                <h1 style=" font-size: 44px; text-align: center;">Some Facts
                     <br>
-                    About <span style="color:blue; font-size: 44px;">Sheer AnalyticsResearch</span>
+                    About <span style="color: #282269 ; font-size: 44px;">Sheer AnalyticsResearch</span>
                 </h1>
             </div>
             <div class="partition-border">
@@ -149,17 +113,17 @@
                         <p class="p-pera">Reports Published</p>
                     </div>
 
-                    <div class="child2">
+                    <div class="child1">
                         <p class="p-num">151+</p>
                         <p class="p-pera">Analystics and Consultants</p>
                     </div>
 
-                    <div class="child3">
+                    <div class="child1">
                         <p class="p-num">300+</p>
                         <p class="p-pera">Consulting Projects Per Year</p>
                     </div>
 
-                    <div class="child4">
+                    <div class="child1">
                         <p class="p-num">80%</p>
                         <p class="p-pera">Of Fortune 1000 Are Our Clients</p>
                     </div>
@@ -168,8 +132,32 @@
             </div>
         </div>
 
-        <!-- what we do page -->
 
+        <!-- marquee comapanies -->
+
+        <hr class="partition-footer">
+
+        <section class="responsiveSection responsiveSection--withDivider padding-vertical-40"
+            aria-labelledby="homeLogosTitle">
+            <div class="responsiveSection__grid">
+                <p id="homeLogosTitle" class="showMobile home__logoTitle font-size-l text-center">
+                    Trusted by more than 23,000 companies
+                </p>
+                <div class="homeLogoList" tabindex="0"><span
+                        class="homeLogoList__item sprite-logo logo-google-grayblue"></span><span
+                        class="homeLogoList__item sprite-logo logo-samsung-grayblue"></span><span
+                        class="homeLogoList__item sprite-logo logo-paypal-grayblue"></span><span
+                        class="homeLogoList__item sprite-logo logo-telekom-grayblue"></span><span
+                        class="homeLogoList__item sprite-logo logo-adobe-grayblue"></span><span
+                        class="homeLogoList__item sprite-logo logo-pg-grayblue"></span></div>
+                <div class="hideMobile home__logoTitle--hover sectionRooftitle">
+                    Trusted by more than 23,000 companies
+                </div>
+            </div>
+            <hr class="partition-footer">
+        </section>
+
+        <!-- what we do page -->
         <div class="father-1">
             <div class="father-2">
                 <p>INFORMED DECISIONS START HERE</p>
@@ -229,16 +217,17 @@
         </div>
         <!-- published reports -->
         <div class="fastx1" style="background-color: #f8f8f8; width: 100%;">
-
-            <div class="fastx2">
-                <h1>Published <span>Report</span></h1>
-                <a href="market-research.html">View All →</a>
+            <div class="fastx2head">
+                <div class="fastx2">
+                    <h1>Published <span>Report</span></h1>
+                    <a href="market-research.html">View All →</a>
+                </div>
             </div>
 
             <div class="fastx3">
 
                 <div class="fastx4">
-                    <a href="#"><img src="../assets/Automotive-Transportation.webp" width="240" height="200px"
+                    <a href="#"><img src="../assets/Automotive-Transportation.webp" width="260" height="200px"
                             style="object-fit: cover;border-top-left-radius: 6px;border-top-right-radius: 6px;"></a>
                     <div class="childx1">
                         <p class="dob">Apr 28, 2023</p>
@@ -253,7 +242,7 @@
                     </div>
                 </div>
                 <div class="fastx5">
-                    <a href="#"><img src="../assets/semiconductor-electronics.webp" width="240" height="200px"
+                    <a href="#"><img src="../assets/semiconductor-electronics.webp" width="260" height="200px"
                             style="object-fit: cover;border-top-left-radius: 6px;border-top-right-radius: 6px;"></a>
                     <div class="childx1">
                         <p class="dob">Apr 28, 2023</p>
@@ -281,7 +270,7 @@
                 </div>
 
                 <div class="fastx7">
-                    <a href="#"><img src="../assets/Advanced-Materials.webp" width="240" height="200px"
+                    <a href="#"><img src="../assets/Advanced-Materials.webp" width="260" height="200px"
                             style="object-fit: cover;border-top-left-radius: 6px;border-top-right-radius: 6px;"></a>
                     <div class="childx1">
                         <p class="dob">Apr 28, 2023</p>
@@ -298,7 +287,164 @@
 
             </div>
             <div class="fastx8">
-               <a href="market-research.html"><button>View All Published Reports</button></a>
+                <a href="market-research.html"><button>View All Published Reports</button></a>
+            </div>
+
+        </div>
+
+        <!-- explore your industry -->
+
+        <section class="indus1">
+            <div class="indus2">
+                <div class="indus3">
+                    <h2>EXPLORE YOUR INDUSTRY</h2>
+                    <p>Market research that is consistently on-point across a wide range of industries</p>
+                </div>
+                <div class="indus4">
+                    <div class="indus5">
+                        <a href="#"><h1>Advanced Materials</h1></a>
+                        <a href="#"><h1>Aerospace & Defence</h1></a>
+                        <a href="#"><h1>Agriculture</h1></a>
+                        <a href="#"><h1>Automation</h1></a>
+                        <a href="#"><h1>Biotechnology</h1></a>                        <a href="#"><h1>Energy & Power</h1></a>
+                        <a href="#"><h1>Pharmaceuticals</h1></a>
+                    </div>
+
+                    <div class="indus6">
+                        <h1>-Advance Materials-</h1>
+                        
+                        <div class="indus7">
+
+                            <li class="indus8">
+                                <p class="dob8">May 20,2023</p>
+
+                                <h5>Membrane Separation Technologies Market</h5>
+
+                                <p class="known8">The global membrane separation technologies market is anticipated to grow at a substantial....</p>
+
+                                <p class="btn-indus"><a href="#">Read More -></a></p>
+                            </li>
+                            
+                            <li class="indus8">
+                                <p class="dob8">May 20,2023</p>
+
+                                <h5>Membrane Separation Technologies Market</h5>
+
+                                <p class="known8">The global membrane separation technologies market is anticipated to grow at a substantial....</p>
+                                
+                                <p class="btn-indus"><a href="#">Read More -></a></p>
+                            </li>
+
+
+                        </div>
+
+                        <div class="indus7">
+
+                            <li class="indus8">
+                                <p class="dob8">May 20,2023</p>
+
+                                <h5>Membrane Separation Technologies Market</h5>
+
+                                <p class="known8">The global membrane separation technologies market is anticipated to grow at a substantial....</p>
+
+                                <p class="btn-indus"><a href="#">Read More -></a></p>
+                            </li>
+                            
+                            <li class="indus8">
+                                <p class="dob8">May 20,2023</p>
+
+                                <h5>Membrane Separation Technologies Market</h5>
+
+                                <p class="known8">The global membrane separation technologies market is anticipated to grow at a substantial....</p>
+                                
+                                <p class="btn-indus"><a href="#">Read More -></a></p>
+                            </li>
+
+
+                        </div>
+
+                        <div class="indus-btn">
+                            <a href="#">View All Advance Materials Report</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- press relase -->
+        <div class="fastx1" style="background-color: #f8f8f8; width: 100%;">
+            <div class="fastx2head">
+                <div class="fastx2">
+                    <h1>Latest Blog & <span>Report</span></h1>
+                    <a href="market-research.html">View All →</a>
+                </div>
+            </div>
+
+            <div class="fastx3">
+
+                <div class="fastx4">
+                    <a href="#"><img src="../assets/Automotive-Transportation.webp" width="260" height="200px"
+                            style="object-fit: cover;border-top-left-radius: 6px;border-top-right-radius: 6px;"></a>
+                    <div class="childx1">
+                        <p class="dob">Apr 28, 2023</p>
+
+                        <a class="head-childx">Automation Selective<br>
+                            Catalystic Reduction...
+                        </a>
+
+                        <p class="childx-pera">The global automotive<br>selective catalytic reduction....</p>
+
+                        <a href="#" class="child-icon">Read More →</a>
+                    </div>
+                </div>
+                <div class="fastx5">
+                    <a href="#"><img src="../assets/semiconductor-electronics.webp" width="260" height="200px"
+                            style="object-fit: cover;border-top-left-radius: 6px;border-top-right-radius: 6px;"></a>
+                    <div class="childx1">
+                        <p class="dob">Apr 28, 2023</p>
+
+                        <a class="head-childx">Automotive Keyless<br>Entry System Market</a>
+
+                        <p class="childx-pera">The global Automotive<br>Keyless Entry System market....</p>
+
+                        <a href="#" class="child-icon">Read More →</a>
+                    </div>
+                </div>
+                <div class="fastx6">
+                    <a href="#"><img src="../assets/Banking-Financial-Services.webp" width="240" height="200px"
+                            style="object-fit: cover;border-top-left-radius: 6px;border-top-right-radius: 6px;"></a>
+                    <div class="childx1">
+                        <p class="dob">Apr 28, 2023</p>
+
+                        <a class="head-childx">Automotive Finance<br>Market
+                        </a>
+
+                        <p class="childx-pera">The global Automotive<br>Finance market is...</p>
+
+                        <a href="#" class="child-icon">Read More →</a>
+                    </div>
+                </div>
+
+                <div class="fastx7">
+                    <a href="#"><img src="../assets/Advanced-Materials.webp" width="260" height="200px"
+                            style="object-fit: cover;border-top-left-radius: 6px;border-top-right-radius: 6px;"></a>
+                    <div class="childx1">
+                        <p class="dob">Apr 28, 2023</p>
+
+                        <a class="head-childx">Automation Selective<br>
+                            Catalystic Reduction...
+                        </a>
+
+                        <p class="childx-pera">The global automotive<br>selective catalytic reduction....</p>
+
+                        <a href="#" class="child-icon">Read More →</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="fastx8">
+                <a href="market-research.html"><button>View All Published Reports</button></a>
             </div>
 
         </div>
@@ -306,10 +452,9 @@
         <!-- testimonials -->
         <div class="perentchildx-1">
             <div class="perentchildx-2">
-                <h2>What people say<br>about Sheer Analytics ?</h2>
+                <h2>What people say<br><span style="color:black" ;>about Sheer Analytics ?</span></h2>
             </div>
             <div class="perentchildx-3">
-
                 <div class="perentchildx-4">
                     <a href="#" class="user-logo"><img src="../assets/user_1x-100x100.webp"></a>
 
@@ -357,44 +502,33 @@
             </div>
         </div>
 
+
+
         <!-- form -->
-        <div class="formx-1">
-            <div class="formx-2">
-                <div class="formx-3">
-                    <a href="#"><img src="../assets/Sunscribe-Now.webp"></a>
+        <header class="hero">
+            <div class="hero-inner">
 
-                    <div class="formx-4">
-                        <h2>Newsletter Subscription</h2>
-
-                        <p class="formx-pera">
-                            Become a member of the market research community and receive the latest updates and
-                            information.
-                        </p>
-
-                        <div class="form-data">
-
-                            <div class="formenotor-datax">
-                                <label>
-                                    First Name<span>*</span>
-                                </label>
-                                <input type="text" placeholder="Your Name">
-                            </div>
-
-                            <div class="formenotor-datax">
-                                <label>
-                                    Email Address<span>*</span>
-                                </label>
-                                <input type="email" placeholder="Your email address">
-                            </div>
+                <div class="hero-text">
+                    <h2>Newsletter Subscription</h2>
+                    <p>Become a member of the market research community and receive the latest updates and information.
+                    </p>
+                    <form class="hero-form" action="/">
+                        <div class="hero-form-input">
+                            <input class="hero-email-input" type="email" , placeholder="Email Address" required>
+                            <input class="hero-form-submit" type="submit" , value="Sign Up">
                         </div>
-
-                        <button class="formx-btn">
-                            SUBSCRIBE NOW
-                        </button>
-                    </div>
+                    </form>
                 </div>
+
+                <div class="hero-image">
+                    <!-- Image: undraw.co -->
+                    <img src="https://assets.codepen.io/495197/undraw_Newsletter_re_wrob.svg" />
+                </div>
+
             </div>
-        </div>
+        </header>
+
+
 
         <!-- footer -->
         <footer class="footer-head">
@@ -510,6 +644,9 @@
             </div>
         </footer>
     </div>
+
+    <!-- js -->
+    <script src="../script.js"></script>
 </body>
 
 </html>
